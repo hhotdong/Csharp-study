@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">anycpu</Platform>
-    <ProjectGuid>{45CAB8E9-AC2F-46A9-9325-5E39A8596798}</ProjectGuid>
+    <ProjectGuid>{1F00F4C9-4563-409E-9646-DD7ACBA81F37}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>keyword_new_and_override</RootNamespace>
-    <AssemblyName>keyword_new_and_override</AssemblyName>
+    <RootNamespace>NewAndOverride</RootNamespace>
+    <AssemblyName>NewAndOverride</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|anycpu' ">

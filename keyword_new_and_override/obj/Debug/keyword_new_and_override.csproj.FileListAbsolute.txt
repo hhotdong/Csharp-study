@@ -1,6 +1,0 @@
-/Users/leedongju/Desktop/HHOT/Csharp-study/keyword_new_and_override/bin/Debug/keyword_new_and_override.exe
-/Users/leedongju/Desktop/HHOT/Csharp-study/keyword_new_and_override/bin/Debug/keyword_new_and_override.pdb
-/Users/leedongju/Desktop/HHOT/Csharp-study/keyword_new_and_override/obj/Debug/keyword_new_and_override.csproj.AssemblyReference.cache
-/Users/leedongju/Desktop/HHOT/Csharp-study/keyword_new_and_override/obj/Debug/keyword_new_and_override.csproj.CoreCompileInputs.cache
-/Users/leedongju/Desktop/HHOT/Csharp-study/keyword_new_and_override/obj/Debug/keyword_new_and_override.exe
-/Users/leedongju/Desktop/HHOT/Csharp-study/keyword_new_and_override/obj/Debug/keyword_new_and_override.pdb

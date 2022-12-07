@@ -1,8 +1,7 @@
-﻿<Properties StartupConfiguration="{45CAB8E9-AC2F-46A9-9325-5E39A8596798}|Default">
+﻿<Properties StartupConfiguration="{1F00F4C9-4563-409E-9646-DD7ACBA81F37}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="66" Column="6" />
-      <File FileName="../Async/AsyncTest/Program.cs" Line="66" Column="6" />
+      <File FileName="Program.cs" Line="65" Column="1" />
     </Files>
     <Pads>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
@@ -10,7 +9,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.keyword__new__and__override PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.NewAndOverride PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

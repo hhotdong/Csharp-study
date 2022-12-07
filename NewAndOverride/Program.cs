@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace keyword_new_and_override
+namespace NewAndOverride
 {
     public class Base
     {
@@ -12,6 +12,13 @@ namespace keyword_new_and_override
         public void Bar()
         {
             Console.WriteLine("Base Bar");
+        }
+
+        public void Func()
+        {
+            Console.WriteLine("Base Func");
+            Foo();
+            Bar();
         }
     }
 
@@ -45,22 +52,41 @@ namespace keyword_new_and_override
     {
         public static void Main(string[] args)
         {
-            var baseObj = new Grandchild();
+            var grandChild = new Grandchild();
+            grandChild         .Foo();
+            ((Child)grandChild).Foo();
+            ((Base)grandChild) .Foo();
 
-            baseObj         .Foo();
-            ((Child)baseObj).Foo();
-            ((Base)baseObj) .Foo();
+            Console.WriteLine("-------------");
 
-            baseObj         .Bar();
-            ((Child)baseObj).Bar();
-            ((Base)baseObj) .Bar();
+            grandChild         .Bar();
+            ((Child)grandChild).Bar();
+            ((Base)grandChild) .Bar();
+
+            Console.WriteLine("-------------");
+
+            grandChild.Func();
+
+            Console.WriteLine("-------------");
+
+            var child = new Child();
+            child.Func();
 
             /// Output
             // Grandchild Foo
             // Grandchild Foo
             // Grandchild Foo
+            // -------------
             // Grandchild Bar
             // Child Bar
+            // Base Bar
+            // -------------
+            // Base Func
+            // Grandchild Foo
+            // Base Bar
+            // -------------
+            // Base Func
+            // Child Foo
             // Base Bar
         }
     }
