@@ -1,0 +1,6 @@
+/Users/leedongju/Desktop/HHOT/Csharp-study/AsyncTest/obj/Debug/AsyncTest.csproj.AssemblyReference.cache
+/Users/leedongju/Desktop/HHOT/Csharp-study/AsyncTest/obj/Debug/AsyncTest.csproj.CoreCompileInputs.cache
+/Users/leedongju/Desktop/HHOT/Csharp-study/AsyncTest/bin/Debug/AsyncTest.exe
+/Users/leedongju/Desktop/HHOT/Csharp-study/AsyncTest/bin/Debug/AsyncTest.pdb
+/Users/leedongju/Desktop/HHOT/Csharp-study/AsyncTest/obj/Debug/AsyncTest.exe
+/Users/leedongju/Desktop/HHOT/Csharp-study/AsyncTest/obj/Debug/AsyncTest.pdb
