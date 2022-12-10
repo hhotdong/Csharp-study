@@ -1,16 +1,11 @@
 # Asynchronous programming
 
-## What's it?
-
-
 ## In C#...
 - Supports language-level asynchronous programming model, TAP(Task-based Asynchronous Pattern), which makes easier to write asynchronous code. TAP is one of several ways of writing asynchronous code in C#.
-
 
 ## When needed?
 - I/O-bound work: Requesting data from a network, accessing a database, or reading and writing to a file system.
 - CPU-bound work: Performing an expensive calculation.
-
 
 ## How to use?
 - I/O-bound work: Await an operation that returns a Task or Task<T> inside of an async method.
@@ -18,6 +13,7 @@
 
 ## async keyword
 - Turns a method into an async method, which allows you to use the await keyword in its body.
+- On the C# side of things, the compiler transforms your code into a state machine that keeps track of things like yielding execution when an await is reached and resuming execution when a background job has finished.
 
 ## await keyword
 - Yields control to the caller of the method that performed await and suspends the calling method until the awaited task is complete.
