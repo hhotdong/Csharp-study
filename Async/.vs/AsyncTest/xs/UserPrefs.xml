@@ -1,13 +1,10 @@
 ﻿<Properties StartupConfiguration="{1FB2E423-D228-4037-9225-9D43C742D756}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="8" Column="33" />
+      <File FileName="Program.cs" Line="11" Column="36" />
+      <File FileName="TaskExample0.cs" Line="8" Column="42" />
+      <File FileName="TaskExample1.cs" Line="19" Column="34" />
     </Files>
-    <Pads>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.AsyncTest PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

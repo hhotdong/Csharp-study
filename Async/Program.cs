@@ -7,16 +7,19 @@ namespace AsyncTest
     {
         public static async Task Main(string[] args)
         {
-            var task = await TestAsync();
-            Console.WriteLine($"Task Test C: {task}");
+            await TaskExample0();
+            //await TaskExample1();
         }
 
-        private static async Task<string> TestAsync()
+        private static async Task TaskExample0()
         {
-            Console.WriteLine("Task Test A");
-            await Task.Delay(1000);
-            Console.WriteLine("Task Test B");
-            return "Complete";
+            var taskResult = await TaskAsyncExample.WaitAndReturnStringAsync();
+            Console.WriteLine($"{taskResult}");
+        }
+
+        private static async Task TaskExample1()
+        {
+            await VoidAsyncExample.MultipleEventHandlersAsync();
         }
     }
 }

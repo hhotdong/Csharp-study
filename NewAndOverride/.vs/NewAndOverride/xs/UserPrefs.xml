@@ -1,11 +1,5 @@
 ﻿<Properties StartupConfiguration="{1F00F4C9-4563-409E-9646-DD7ACBA81F37}|Default">
-  <MonoDevelop.Ide.Workbench>
-    <Pads>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.ItemProperties.NewAndOverride PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
